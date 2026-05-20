@@ -1,0 +1,37 @@
+.burger__menu {
+    position: fixed;
+    background-color: #DCD2CA;
+    border: 1vw solid #988F85;
+    padding: 5.2vw;
+    padding-top: 10vw;
+    font-size: 4vw;
+    color: #6B6054;
+    right: 0;
+}
+
+.burger__close_button {
+    position: absolute;
+    stroke: #6B6054;
+    width: 4vw;
+    height: 4vw;
+    right: 10%;
+    top: 10%;
+}
+
+.burger__close_button:hover {
+    stroke: #988F85;
+}
+
+.burger__navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.burger__navigation_item {
+    color: #6B6054;
+    margin-bottom: 2vw;
+}
+
+.burger__navigation_item:hover {
+    color: #988F85;
+}

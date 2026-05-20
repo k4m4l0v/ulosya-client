@@ -1,0 +1,108 @@
+.catalog {
+    background-color: #DCD2CA;
+    padding: 3.1vw; /*40px*/
+    padding-top: 4.7vw; /*60px*/
+    color: #6B6054;
+}
+
+.catalog__title {
+    font-size: 2.5vw; /*32px*/
+    margin-bottom: 1.5vw; /*20px*/
+}
+
+.catalog__search {
+    background-color: #6B6054;
+    color: #DCD2CA;
+    width: 30vw;
+}
+
+.catalog__search::placeholder {
+    color: #C2BCB6;
+}
+
+.catalog__list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.catalog__list_item {
+    width: 16vw;
+    height: 23vw;
+    border-radius: 0.6vw; /*8px*/
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 2vw;
+    margin-bottom: 3.1vw; /*40px*/
+    cursor: pointer;
+}
+
+.catalog__list_item_description {
+    background-color: #6B6054;
+    color: #DCD2CA;
+    padding-top: 2.3vw; /*30px*/
+    padding-bottom: 2.3vw; /*30px*/
+    padding-left: 3.1vw; /*40px*/
+    padding-right: 3.1vw; /*40px*/
+    width: 100%;
+    text-align: center;
+    font-size: 1.2vw;
+    border-bottom-left-radius: 0.6vw; /*8px*/
+    border-bottom-right-radius: 0.6vw; /*8px*/
+    height: fit-content;
+    transition: 0.2s;
+}
+
+.catalog__list_item_description:hover {
+    padding-top: 4.7vw; /*60px*/
+    padding-bottom: 4.7vw; /*60px*/
+    transition: 0.2s;
+}
+
+.catalog__button_container {
+    display: flex;
+    justify-content: center;
+}
+
+.catalog__title_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .catalog {
+        padding: 5.2vw;
+        padding-top: 7.8vw;
+    }
+
+    .catalog__title {
+        font-size: 4vw;
+        margin-bottom: 2.6vw;
+    }
+
+    .catalog__list {
+        margin-bottom: 2vw;
+    }
+
+    .catalog__list_item {
+        width: 15vw;
+        height: 30vw;
+        margin-right: 2.6vw;
+        border-radius: 2vw;
+    }
+
+    .catalog__list_item:nth-child(5n) {
+        margin-right: 0px;
+    }
+
+    .catalog__list_item_description {
+        font-size: 1.2vw;
+        border-bottom-left-radius: 2vw;
+        border-bottom-right-radius: 2vw;
+    }
+}

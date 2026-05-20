@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    scrollbar-color: #6B6054 #E2DCD7;
+    scrollbar-width: thin;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: #E2DCD7;
+    font-family: 'Seenonim';
+    width: 100%;
+    position: relative;
+}
+
+input {
+    padding: 0.8vw; /*10px*/
+    border-radius: 0.6vw; /*8px*/
+    border: none;
+    outline: none;
+    color: #6B6054;
+    background-color: #DCD2CA;
+    margin-bottom: 1.5vw; /*20px*/
+    width: 100%;
+}
+
+button {
+    font-size: 1.2vw; /*16px*/
+    font-weight: 700;
+    padding: 1.5vw; /*20px*/
+    padding-top: 0.8vw;/*10px*/
+    padding-bottom: 0.8vw; /*10px*/
+    background-color: #6B6054;
+    color: #DCD2CA;
+    border: 0.15vw solid #6B6054; /*2px*/
+    border-radius: 0.6vw; /*8px*/
+    align-items: center;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #DCD2CA;
+    color: #6B6054;
+    transition: 0.2s;
+}
+
+.active {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+    button {
+        font-size: 2.2vw;
+        padding: 1.4vw;
+        border-radius: 1.6vw;
+    }
+}

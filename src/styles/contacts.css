@@ -1,0 +1,58 @@
+.contacts {
+    padding: 3.1vw; /*40px*/
+    padding-top: 4.7vw; /*60px*/
+    color: #6B6054;
+}
+
+.contacts__title {
+    font-size: 2.5vw; /*32px*/
+    margin-bottom: 1.5vw; /*20px*/
+}
+
+.contacts__call_title,
+.contacts__call_phone_number,
+.contacts__write_title,
+.contacts__write_phone_number {
+    font-size: 1.5vw; /*20px*/
+    margin-bottom: 0.8vw;
+}
+
+.contacts__write_title_image {
+    width: 2.3vw; /*30px*/
+    height: 2.3vw; /*30px*/
+}
+
+.contacts__image {
+    width: 2.5vw;
+    height: 2.5vw;
+    margin-left: 1vw;
+}
+
+.contacts__call_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 3.1vw; /*40px*/
+}
+
+.contacts__button {
+    height: fit-content;
+}
+
+.contacts__map_container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: center;
+    width: 96vw; /*1230px*/
+    height: 47vw; /*600px*/
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 3.1vw; /*40px*/
+}
+
+@media (max-width: 768px) {
+    .contacts {
+        display: none;
+    }
+}

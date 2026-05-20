@@ -1,0 +1,50 @@
+.contacts_mobile {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .contacts_mobile {
+        display: block;
+        padding: 5.2vw;
+        padding-top: 7.8vw;
+        color: #6B6054;
+    }
+
+    .contacts_mobile__wrapper {
+        display: flex;
+    }
+
+    .contacts_mobile__title {
+        font-size: 4vw;
+        margin-bottom: 2.6vw;
+    }
+
+    .contacts_mobile__call_container {
+        margin-right: 2.6vw;
+    }
+
+    .contacts_mobile__call {
+        font-size: 2.6vw;
+        margin-bottom: 2vw;
+    }
+
+    .contacts_mobile__write {
+        font-size: 2.6vw;
+        margin-bottom: 2vw;
+    }
+
+    .contacts_mobile__images_container {
+        margin-bottom: 4vw;
+        display: flex;
+    }
+
+    .contacts_mobile__image {
+        width: 5vw;
+        height: 5vw;
+        margin-right: 2vw;
+    }
+
+    .contacts_mobile__map_container {
+        width: 60%;
+    }
+}
