@@ -53,7 +53,7 @@ const Basket = observer(() => {
                     basket.basketCount.find(count => count.id === item.id).count > 0
                     ?
                     <li className="basket__list_item" key={item.id}>
-                        <img src={"http://localhost:5000/" + item.img} />
+                        <img src={"http://95.163.227.128:5000/" + item.img} />
                         <div className="basket__list_item_info">
                             <p>{item.name}</p>
                             <p>{item.price} руб.</p>
