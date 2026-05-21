@@ -13,7 +13,7 @@ const Callback = observer(() => {
     const isFormValid = callback.userInfo.name !== '' && callback.userInfo.phone !== ''
 
     async function sendMessage(nameProp, phoneProp) {
-        const response = await fetch('http://localhost:5000/api/message/callback', {
+        const response = await fetch('http://95.163.227.128:5000/api/message/callback', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'

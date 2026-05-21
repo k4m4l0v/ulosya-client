@@ -20,7 +20,7 @@ const Basket = observer(() => {
     const isFormValid = basket.userInfo.name !== '' && basket.userInfo.phone !== '' && basket.userInfo.address !== '' && basket.basket.length > 0
 
     async function sendMessage(orderProp, nameProp, phoneProp, addressProp, count, sumProp) {
-        const response = await fetch('http://localhost:5000/api/message', {
+        const response = await fetch('http://95.163.227.128:5000/api/message', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
