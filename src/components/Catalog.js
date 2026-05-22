@@ -7,13 +7,9 @@ import { getItems } from '../http/userAPI';
 const Catalog = observer(() => {
     const {item, basket} = useContext(Context);
 
-    // useEffect(() => {
-    //     getItems().then(data => item.setItems(data));
-    //     console.log('Test');
-    //     return () => {
-    //         controller.abort();
-    //     }
-    // }, []);
+    useEffect(() => {
+        getItems().then(data => item.setItems(data));
+    }, []);
 
     const [searchQuery, setSearchQuery] = useState('');
 
