@@ -13,6 +13,7 @@ export default class ItemStore {
 
     setItems(items) {
         this._items = items;
+        console.log(this._items)
     }
 
     setLimit(number) {
