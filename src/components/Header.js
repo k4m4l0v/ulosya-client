@@ -1,10 +1,9 @@
 import React, { useContext } from "react";
 import { observer } from "mobx-react-lite";
-// import logo from '../images/logo.png';
 import { Context } from "../index";
 import '../styles/header.css';
 
-const logo = 'http://http://95.163.227.128:5000/logo.png';
+const logo = 'http://95.163.227.128:5000/logo.png';
 
 const Header = observer(() => {
     const {burger, basket} = useContext(Context);
