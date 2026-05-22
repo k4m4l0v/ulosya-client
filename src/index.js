@@ -18,8 +18,6 @@ root.render(
     callback: new CallbackStore(),
     burger: new BurgerStore()
   }}>
-    <React.StrictMode>
       <App />
-    </React.StrictMode>
   </Context.Provider>
 );
