@@ -9,7 +9,7 @@ const Catalog = observer(() => {
 
     useEffect(() => {
         getItems().then(data => item.setItems(data));
-    }, []);
+    });
 
     const [searchQuery, setSearchQuery] = useState('');
 
