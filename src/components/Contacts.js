@@ -34,7 +34,7 @@ const Contacts = observer(() => {
                         <img src={vk} className="contacts__image" />
                     </div>
                     <div className="contacts__write_phone_number">
-                        +7(995)158-40-32
+                        <a href="mailto: ulosya-pitomnik@mail.ru">ulosya-pitomnik@mail.ru</a>
                     </div>
                 </article>
                 <a href="#header">

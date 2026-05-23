@@ -15,7 +15,7 @@ const FooterMobile = () => {
                             Звоните
                         </div>
                         <div className="contacts_mobile__call_phone_number">
-                            +7(995)158-40-32
+                            <a href="tel: +79951584032">+7(995)158-40-32</a>
                         </div>
                     </article>
                     <article className="contacts_mobile__write">
@@ -23,7 +23,7 @@ const FooterMobile = () => {
                             Пишите
                         </div>
                         <div className="contacts_mobile__write_phone_number">
-                            +7(995)158-40-32
+                            <a href="mailto: ulosya-pitomnik@mail.ru">ulosya-pitomnik@mail.ru</a>
                         </div>
                     </article>
                     <div className="footer_mobile__address_wrapper">
