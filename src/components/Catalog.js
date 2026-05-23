@@ -55,7 +55,7 @@ const Catalog = observer(() => {
                     }}
                     key={item.id}>
                         <div className="catalog__list_item_description">
-                            <p>{item.name}</p>
+                            <h3>{item.name}</h3>
                             <p>{item.price} руб.</p>
                         </div>
                     </li>
