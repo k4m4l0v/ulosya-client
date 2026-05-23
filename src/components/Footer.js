@@ -14,7 +14,7 @@ const Footer = () => {
                         Звоните и пишите
                     </div>
                     <div className="contacts__call_phone_number">
-                        <a href="tel:+79951584032">+7(995)158-40-32</a>
+                        <a href="tel:+79951584032">+7(995)158-40-32</a><br/>
                         <a href="mailto: ulosya-pitomnik@mail.ru">ulosya-pitomnik@mail.ru</a>
                     </div>
                 </article>
