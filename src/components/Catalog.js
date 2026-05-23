@@ -41,7 +41,7 @@ const Catalog = observer(() => {
             </div>
             <ul className="catalog__list">
                 {visibleItems.map(item =>
-                    <li className="catalog__list_item" style={{backgroundImage: `url(http://95.163.227.128:5000/${item.img})`}}
+                    <li className="catalog__list_item" style={{backgroundImage: `url(http://ulosya-pitomnik.ru/${item.img})`}}
                     onClick={() => {
                         if (basket.basket.length === 0) {
                             basket.setBasket(item)

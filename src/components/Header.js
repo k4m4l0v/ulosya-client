@@ -3,7 +3,7 @@ import { observer } from "mobx-react-lite";
 import { Context } from "../index";
 import '../styles/header.css';
 
-const logo = 'http://95.163.227.128:5000/logo.png';
+const logo = 'http://ulosya-pitomnik.ru/logo.png';
 
 const Header = observer(() => {
     const {burger, basket} = useContext(Context);
